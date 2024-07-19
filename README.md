@@ -10,7 +10,7 @@ The "run_tflite.py" script demonstrates how to use a TensorFlow Lite (TFLite) mo
 The main steps are summarized by the following:   
 1- Import the necessary libraries: "numpy", "tensorflow", and "os"   
 2- Get the current path and combine it with the filenames to create the full path of the model and the data files   
-3- Loads the data using "np.load"
+3- Loads the data using "np.load"   
 4- Loads the TFLite model and allocate tensors
 5- Gets the input and output details from the interpreter
 6- Converts the x_text_noisy data to np.float32 and stores them in text_data
