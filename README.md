@@ -30,6 +30,6 @@ c- Retreive the output and store in the results
 3- Wait for the board LED to show green color indicating the that the boot process was completed successfully     
 4- Open terminal and run: mdt devices (This should return the name and IP of the connected board)      
 5- Use the command "mdt shell" to open a shell on the board using the MDT tool (Managed Device Tool). This starts an interactive shell session on the target device, allowing you to execute commands directly on the board.
-6- Use the command "nmtui" to open a GUI for configuring the internet connection on the board.
+6- Use the command "nmtui" to open a GUI for configuring the internet connection on the board.   
 7- Download the GitHub repo to execute the code (use git clone)     
 8- Run the "run_tflite.py" script
