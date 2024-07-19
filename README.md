@@ -40,6 +40,4 @@ c- Retreive the output and store in the results
 - The power measurements perfomed using the USB-monitoring device showed that the inference process running on the Coral Dev mini board caused an increase in the average power consumption of 0.59 W and an increase in average current consumption of 0.15 A.
 - A snapshot of the measurement process is shown below.
 
-![Alt text](images/Coral_mini_text.png)
-
-- 
+![Alt text](images/Measurement.PNG)
