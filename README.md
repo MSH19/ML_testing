@@ -26,9 +26,9 @@ c- Retreive the output and store in the results
 
 ## Run the model on the Coral Dev Board Coral_mini_text
 1- Connect the board to a Linux-based PC through the data cable only    
-2- Use a USB voltage and current detection meter (such as FNB58 USB tester) to monitor the current through the USB cable (optional)    
-3- Wait for the board LED to show green color indicating the that the boot process was completed successfully
-4- Open terminal and run: mdt devices (This should return the name and IP of the connected board)
+2- Use a USB voltage and current detection meter (such as FNB58 USB tester) to monitor the current through the USB cable (optional)         
+3- Wait for the board LED to show green color indicating the that the boot process was completed successfully     
+4- Open terminal and run: mdt devices (This should return the name and IP of the connected board)      
 5- Use the command "mdt shell" to open a shell on the board using the MDT tool (Managed Device Tool). This starts an interactive shell session on the target device, allowing you to execute commands directly on the board.
-6- Use the command "nmtui" to open a GUI for configuring the internet connection on the board.
-7- Download the GitHub repo to execute the code: 
+6- Use the command "nmtui" to open a GUI for configuring the internet connection on the board.     
+7- Download the GitHub repo to execute the code:     
