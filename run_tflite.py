@@ -8,6 +8,7 @@
 import numpy as np
 import tensorflow as tf
 import os
+import time
 
 # Get the current working directory
 current_path = os.getcwd()
@@ -36,6 +37,8 @@ output_details = interpreter.get_output_details()
     
 # Prepare the test dataset
 test_data = x_test_noisy.astype(np.float32)
+
+start_time = time.time()
         
 # Run inference on each test sample
 results = []
@@ -54,10 +57,17 @@ for sample in test_data:
     # Get the output
     output_data = interpreter.get_tensor(output_details[0]['index'])
     results.append(output_data)
-    
+
+# Calculate the elapsed time
+end_time = time.time()
+inference_time = end_time - start_time
+
 # Convert the results to a NumPy array
 results = np.array(results)
 results = np.squeeze(results, axis=(1,3))
-    
+
 decoded_layer = results
+
+# Print the results and the inference time
+print("Inference time: {:.2f} seconds".format(inference_time))
 print (decoded_layer)
