@@ -1,11 +1,13 @@
 # Running deep learning auto-encoder models on embedded systems
 
+## Introduction   
 In this demo, we explain how to run ML models on embedded systems:      
 
 1- Coral Dev Board Mini   
 
 ![Alt text](images/Coral_mini_text.png)
 
+## Scripts description   
 The "run_tflite.py" script demonstrates how to use a TensorFlow Lite (TFLite) model to perform inference on noisy test data.
 The main steps are summarized by the following:   
 1- Import the necessary libraries: "numpy", "tensorflow", and "os"   
