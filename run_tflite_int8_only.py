@@ -3,11 +3,6 @@ import numpy as np
 import tensorflow as tf
 import os
 import time
-import matplotlib.pyplot as plt
-import pandas as pd
-from scipy import signal
-import math
-import scipy.io
 
 # get the current working directory
 current_path = os.getcwd()
